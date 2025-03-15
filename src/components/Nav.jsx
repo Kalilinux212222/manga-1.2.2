@@ -149,7 +149,7 @@ const Nav = () => {
             <div className="flex w-full h-[100%] items-center justify-center mx-auto p-4">
                 <ul className="flex mx-4 font-bold border-b">
                     <li className="p-4 hover:bg-sky-300 focus:outline-2 focus:outline-sky-300 active:bg-sky-500 rounded-2xl"><Link to="/popular">Popular</Link></li>
-                    <li className="p-4 bg-sky-300 hover:bg-sky-300 focus:outline-2 focus:outline-sky-300 active:bg-sky-500 rounded-2xl"><Link to="/newest">Newest</Link></li>
+                    <li className="p-4 hover:bg-sky-300 focus:outline-2 focus:outline-sky-300 active:bg-sky-500 rounded-2xl"><Link to="/newest">Newest</Link></li>
                     <li className=" p-4 hover:bg-sky-300 focus:outline-2 focus:outline-sky-300 active:bg-sky-500 rounded-2xl"><Link to="/col">Collections</Link></li>
                     <li className=" p-4 hover:bg-sky-300 focus:outline-2 focus:outline-sky-300 active:bg-sky-500 rounded-2xl flex ease-in-out duration-500" onClick={dropdown} >Series {!drop ? <IoMdArrowDropright size={20} className="mt-0.5" /> :<IoMdArrowDropleft size={20} className="mt-0.5"/>}</li>
                 </ul>
